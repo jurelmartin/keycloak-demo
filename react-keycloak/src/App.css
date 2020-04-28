@@ -1,0 +1,153 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color:rgba(0, 0, 0, 0.65);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body {
+  background-color: rgba(0, 0, 0, 0.65);
+  padding: 20px;
+  margin: 0;
+}
+
+h1, h2, p, ul, li {
+  font-family: sans-serif;
+}
+
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.header {
+  background-color: #111;
+  padding: 0;
+}
+ul.header li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+
+.content {
+  background-color: #FFF;
+  padding: 20px;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
+.active {
+  background-color: #f9cc41;
+}
+.btn-primary {
+  color: rgba(0,0,0,.65);
+  background-color: #f9cc41;
+  border-color: #f9cc41;
+  line-height: 1.499;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 4px;
+}
+.btn-primary:focus {
+  outline: 0;
+  outline-color: initial;
+  outline-style: initial;
+  outline-width: 0px;
+}
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 10px;
+    border-top: 2px solid rgba(0, 0, 0, 0.09);
+    box-sizing: border-box;
+    padding: 5px;
+    text-align: center;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.content {
+
+  flex-direction: row-reverse;
+  align-items: right;
+  min-height: 50px;
+  border-top: 2px solid rgba(0, 0, 0, 0.09);
+  box-sizing: border-box;
+  padding: 14px;
+  text-align: left;
+}
+
+.main {
+    background: #b3b3b3;
+    padding: 20px 0;
+    max-width: 320px;
+    padding: 14px;
+    
+}
+.products {
+    background: #b3b3b3;
+    padding: 20px 0;
+    max-width: 320px;
+    padding: 14px;
+    font-size: small;
+
+}
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1000px;
+    width: 100%;
+    margin: 45px 0 90px 0;
+}
+.account {
+  font-size: small;
+}
+.details-row {
+  display: flex;
+  margin: 10px;
+  box-sizing: border-box;
+}
+.details-row label {
+  text-align: left;
+  margin-right: 24px;
+  color: #303030;
+  padding: 5px 0;
+}
+.span {
+  padding: 0;
+}

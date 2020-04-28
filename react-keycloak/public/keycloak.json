@@ -1,0 +1,7 @@
+{
+  "realm": "internal-apps",
+  "auth-server-url": "https://keycloak.thebrewery.dev/auth/",
+  "ssl-required": "external",
+  "resource": "react-keycloak",
+  "public-client": false
+}

@@ -1,0 +1,17 @@
+{
+  "name": "list-api",
+  "version": "1.0.0",
+  "description": "sample service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "jagustin@stratpoint.com <jagustin@stratpoint.com> (https://github.com/jurelmartin/FTAuth.git)",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "keycloak-connect": "^9.0.3"
+  }
+}
