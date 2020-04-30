@@ -1,0 +1,9 @@
+{
+  "realm" : "internal-apps",
+  "realm-public-key" : "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmYy8NRwFsIBMJm+fhsKQeTA/F6pagS61wulepdUkYuHEmQtN6b1hwlVF6GHUODvSAgjFVx8AV5irli018r6GGGqNn52km2jPqwQvO7LztxbyZkdGOanyTfoIvS+2Xp+G2GBnQdTY+LwY+2wr+5fUIW/RGM0DHSnUXLjC12G/DqIR/78+j3IqslO3CI986hEnM/ZQ104nFe8OHD6SWTt/cnRNGoYRu/Br4TJmtZcJjGu12t0SjW9nTBkcBOlBkG2xe7WoieZJLPkhgaWQ+hNe50lavmwLHusWwfBCr36+0/JRXxQuXj4fV1E8FGp3QBR3O5A4zUfC63NSdHu6MwQZ8wIDAQAB",
+  "auth-server-url" : "https://keycloak.thebrewery.dev/auth/",
+  "ssl-required" : "external",
+  "resource" : "nodejs-connect",
+  "public-client" : false,
+  "bearer-only": true
+}
