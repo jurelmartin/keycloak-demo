@@ -9,7 +9,7 @@ class App extends Component {
         return (
             <BrowserRouter>
                 <div> 
-                    <h1>Keycloak Demo</h1>
+                    <h1>Sample Demo App 1</h1>
                     <ul className="header">
                         <li><NavLink exact to="/">Public component</NavLink></li>
                         <li><NavLink to="/secured">Secured component</NavLink></li>
